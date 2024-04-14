@@ -2,8 +2,8 @@ import dash
 from dash import dcc, html
 from dash.dependencies import Input, Output
 import requests
-
-# Initialize the Dash app with suppress_callback_exceptions=True
+#PLEASE LIMIT TESTING OF API REQUESTS ONLY 100 FREE REQUESTS A DAY!!!!
+# Initialize the Dash app with suppress_callback_exceptions=True to avoid error messages when testing
 app = dash.Dash(__name__, suppress_callback_exceptions=True)
 
 # Define API endpoint and headers
